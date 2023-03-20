@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+
+  cronos:
+    container_name: cronos-hsr
+    image: vovque/cronos-hsr:latest
+    volumes:
+      - ./logs/:/opt/logs/
+      - ./certificates/:/opt/certificates/
+    env_file:
+      - ./.env
+    restart: always

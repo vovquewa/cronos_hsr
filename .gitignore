@@ -1,0 +1,6 @@
+venv/
+certificates/
+sandbox/
+.env
+.DS_Store
+*.log

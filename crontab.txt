@@ -1,0 +1,1 @@
+* * * * * /usr/local/bin/python /opt/scripts/qlik_hypercube_outbound.py
