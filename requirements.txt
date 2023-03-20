@@ -1,0 +1,3 @@
+websocket-client==1.5.1
+python-dotenv==1.0.0
+qEngineApi==0.1.2
